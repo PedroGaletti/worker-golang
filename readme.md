@@ -33,12 +33,12 @@ LOG_LEVEL                        | string  | Leveled Logging                   |
 
 Assuming that you have already cloned the project and the [Go](https://golang.org/doc/install) is installed, ensure that all dependencies are vendored in the project:
 
-`make install`
+```make install```
 
 To build the application:
 
-`make build`
+```make build```
 
 To run the application local:
 
-`make run`
+```make run```
