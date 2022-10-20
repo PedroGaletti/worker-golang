@@ -1,0 +1,33 @@
+### Visual Studio Code ###
+.vscode
+
+### Git ###
+.git
+
+### envs ###
+.env
+.env.staging
+.env.production
+
+### Other Files ###
+vendor
+debug
+.DS_Store
+
+### Binaries and Plugins ###
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+### Test binary ###
+*.test
+
+### Coverage output ###
+*.out
+*.coverprofile
+coverage.html
+
+### Build ###
+worker-golang
