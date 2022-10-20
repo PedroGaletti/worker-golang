@@ -13,7 +13,7 @@
 
 ```
 $PROJECT_ROOT
-├── cmd              # Image files
+├── cmd
 │   ├── configs      # Configs of application
 │   └── jobs         # Cron logic
 └── main.go          # Entry point
