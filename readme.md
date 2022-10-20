@@ -22,11 +22,11 @@ $PROJECT_ROOT
 ## Environment Variables
 
 ```
-Variable                         | Type    | Description                       | Default
--------------------------------- | ------- | --------------------------------- | --------------------------------------------------------------------
-CRON_TIME                        | string  | Interval time of the cron         | */1 * * * *
-LOCALIZATION                     | string  | Timezone of the cron              | America/Sao_Paulo
-LOG_LEVEL                        | string  | Leveled Logging                   | info
+Variable                | Type    | Description                       | Default
+----------------------- | ------- | --------------------------------- | --------------------------------------------------------------------
+CRON_TIME               | string  | Interval time of the cron         | */1 * * * *
+LOCALIZATION            | string  | Timezone of the cron              | America/Sao_Paulo
+LOG_LEVEL               | string  | Leveled Logging                   | info
 ```
 
 ## Make commands:
