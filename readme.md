@@ -6,8 +6,8 @@
 
 - [Golang](https://go.dev) - Build fast, reliable, and efficient software at scale
 - [Docker](https://www.docker.com) - Accelerate how you build, share, and run modern applications
-- [Go Cron](https://github.com/go-co-op/gocron) - gocron is a job scheduling package which lets you run Go functions at pre-determined intervals using a simple
-- [Zero Log](https://github.com/rs/zerolog) - The zerolog package provides a fast and simple logger dedicated to JSON output
+- [Go Cron](https://github.com/go-co-op/gocron) - Gocron is a job scheduling package which lets you run Go functions at pre-determined intervals
+- [Zero Log](https://github.com/rs/zerolog) - Zerolog package provides a fast and simple logger dedicated to JSON output
 
 ## Project structure
 
@@ -29,26 +29,16 @@ LOCALIZATION                     | string  | Timezone of the cron              |
 LOG_LEVEL                        | string  | Leveled Logging                   | info
 ```
 
-## Installing
+## Make commands:
 
 Assuming that you have already cloned the project and the [Go](https://golang.org/doc/install) is installed, ensure that all dependencies are vendored in the project:
 
-```sh
-$ make install
-```
+`make install`
 
-## Building
+To build the application:
 
-Build app:
+`make build`
 
-```sh
-$ make build
-```
+To run the application local:
 
-## Running
-
-Starting app:
-
-```sh
-$ make run
-```
+`make run`
